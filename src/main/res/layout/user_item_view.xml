@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp"
+    android:background="@drawable/border_background"
+    android:elevation="8dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rafael"
+            android:textSize="25dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/btn_block_user"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:text="Bloquear"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/block"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_edit_user"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="Editar"
+            android:textStyle="bold"
+            android:background="#A9ED5A"
+            android:elevation="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

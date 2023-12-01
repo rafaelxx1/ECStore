@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#BEBFBE" /> <!-- Cor de fundo do botão -->
+    <corners android:radius="15dp" /> <!-- Raio dos cantos, ajuste conforme necessário -->
+    <padding
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp"
+        android:bottom="10dp" /> <!-- Padding interno, ajuste conforme necessário -->
+</shape>
